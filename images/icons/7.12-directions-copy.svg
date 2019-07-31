@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="25px" viewBox="0 0 17 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>directions copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="BusyBus---bus-stop-display" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bus-Stop-Display" transform="translate(-178.000000, -190.000000)" fill="#CE3737">
+            <g id="card-up" transform="translate(0.000000, 190.000000)">
+                <path d="M186.5,0 C181.787132,0 178,3.82754845 178,8.59407812 C178,13.3591078 186.5,25 186.5,25 C186.5,25 195,13.3591078 195,8.59407812 C195,3.82754845 191.212868,0 186.5,0 Z M186.5,12 C184.540699,12 183,10.460645 183,8.5 C183,6.54069879 184.539355,5 186.5,5 C188.459301,5 190,6.53935496 190,8.5 C190,10.4606114 188.459335,12 186.5,12 Z" id="directions-copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

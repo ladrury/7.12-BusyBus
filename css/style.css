@@ -2,106 +2,130 @@
   box-sizing: border-box;
 }
 
+nav {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 1% 0 1% 0;
+  font-family: sans-serif;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 151, 19, 0.1);
+}
+nav p {
+  font-size: .8em;
+  font-weight: bold;
+}
+.fa-chevron-left {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+.fa-plus {
+  position: absolute;
+  top:30%;
+  right: 5%;
+}
+
 div {
-  border-top: 3px solid black; border-left: 3px solid black; border-right: 3px solid black;
   border-radius: 10px 10px 0 0;
   background-color: #ffffff;
   font-size: 12px;
   font-family: sans-serif;
   padding-top: 10px;
 }
-
-nav {
-  font-size: 1.3em;
-  text-align: center;
-  padding: 1% 0 0 0;
-  font-family: sans-serif;
-}
-
 button {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 70%;
   margin: 1% auto;
   background-color: #d3d3d3;
   border-radius: 10px;
 }
-
+li.next-arrival {
+  width: 35%;
+}
 h2.arrival-time {
   text-align: right;
   background-color: yellow;
   padding: 0 3px;
   border-radius: 5px;
+  display: inline-block;
 }
-
 hr {
   margin: 2% 0;
 }
-
-ul {
+ul.bus-line {
   width: 100%;
   padding: .5% 1% 1% 1%;
+  display: inline-flex;
 }
-
 li {
-  width: 49%;
   display: inline-block;
-  text-align: left;
+  text-align: right;
   font-size: 1.2em;
   line-height: 1.3;
 }
-
 li.bus-lines {
   text-align: left;
+  width: 65%
 }
-
-p.frequency {
-  font-size: .9em;
-  font-style: italic;
-}
-
-.arrival {
-  text-align: right;
-  font-weight: bold;
-  background-color: #d3d3d3;
-  border-radius: 5px;
-  padding: 0 3px;
-}
-
-.frequency {
-  text-align: right;
-}
-
 h2.line {
   font-size: 1.2em;
   text-transform: capitalize;
   font-weight: bold;
   display: inline-block;
 }
-
 p.line {
   display: inline-block;
   padding-left: 10px;
   font-style: italic;
 }
-
+li.arrivals {
+  width: 100%;
+}
+.arrival {
+  text-align: right;
+  font-weight: bold;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  padding: 0 3px;
+  display: inline-block;
+}
+.frequency {
+  text-align: right;
+  font-size: .9em;
+  font-style: italic;
+}
 p.direction {
   font-weight: bold;
   text-transform: uppercase;
 }
 
+ul.bus-line-alerts {
+  width: 100%;
+  display: inline-flex;
+}
 li.resumes {
   text-align: right;
+  width: 100%;
 }
-
 p.resumes {
   display: inline;
 }
-
 h2.resumes {
   display: inline-block;
   background-color: #d3d3d3;
   border: 0;
   border-radius: 5px;
   padding: 5px;
+  margin: 3px;
+}
+
+ul.reroute {
+  width: 100%;
+  display: inline-flex;
+}
+ul li.line {
+  text-align: left;
+  width: 100%;
 }

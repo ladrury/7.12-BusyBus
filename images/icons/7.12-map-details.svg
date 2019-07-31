@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="48px" viewBox="0 0 28 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>map details</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,20 L20,38.0092049 C20,39.1086907 19.1017876,40 18.0092049,40 L1.99079514,40 C0.891309342,40 0,39.1017876 0,38.0092049 L0,20 L0,1.99079514 C0,0.891309342 0.898212381,0 1.99079514,0 L18.0092049,0 C19.1086907,0 20,0.898212381 20,1.99079514 L20,20 Z" id="path-1"></path>
+        <filter x="-32.5%" y="-13.8%" width="165.0%" height="132.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="BusyBus---bus-stop-display" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="Bus-Stop-Display" transform="translate(-333.000000, -102.000000)">
+            <g id="map-details" transform="translate(337.000000, 105.000000)">
+                <g id="Location">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="info-icon" transform="translate(5.000000, 5.000000)">
+                        <circle id="Oval" stroke="#DADADA" cx="5" cy="5" r="4.5"></circle>
+                        <text id="i" font-family="TimesNewRomanPSMT, Times New Roman" font-size="9" font-weight="normal" letter-spacing="-0.217058822" fill="#848484">
+                            <tspan x="3.85828527" y="8">i</tspan>
+                        </text>
+                    </g>
+                    <path d="M0,20 L20,20" id="Line-3" stroke="#E6E6E6" stroke-width="0.25"></path>
+                </g>
+                <g id="Location-Copy" transform="translate(4.000000, 24.000000)">
+                    <g id="ic_location" transform="translate(0.827586, 0.827586)">
+                        <g id="Group">
+                            <circle id="Oval-6" stroke="#D1D1D1" cx="5.51724138" cy="5.51724138" r="3.63793103"></circle>
+                            <circle id="Oval-5" stroke="#FFFFFF" fill="#666666" cx="5.51724138" cy="5.51724138" r="2.75862069"></circle>
+                            <rect id="Rectangle-37" fill="#D1D1D1" x="4.82758621" y="0" width="1.37931034" height="1.37931034"></rect>
+                            <rect id="Rectangle-37-Copy" fill="#D1D1D1" x="4.82758621" y="9.65517241" width="1.37931034" height="1.37931034"></rect>
+                            <rect id="Rectangle-37-Copy-2" fill="#D1D1D1" x="9.65517241" y="4.82758621" width="1.37931034" height="1.37931034"></rect>
+                            <rect id="Rectangle-37-Copy-3" fill="#D1D1D1" x="0" y="4.82758621" width="1.37931034" height="1.37931034"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
