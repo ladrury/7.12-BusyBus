@@ -65,6 +65,13 @@ div.overlay {
   background-color: #f7f7f7;
   position: absolute;
 }
+/*how can i center this line for the "pull down"
+and bring it in front of the "card-up"? Also,
+how do i make the corners rounded?*/
+.pull-down {
+  top: 65%;
+  width: 30px;
+}
 div {
   margin: -1% 0;
   border-radius: 10px 10px 0 0;
@@ -73,6 +80,10 @@ div {
   font-family: sans-serif;
   padding: 10px 3% 2% 2%
 }
+/*how can i make the entire background of the
+top section (behind the button) to be white without
+the grey background surrounding it? Basically, how can
+i match my sketch design?*/
 .button-background {
   background-color: white;
   border-color: white;
@@ -199,6 +210,8 @@ ul li.line {
   text-align: left;
   width: 100%;
 }
+/*how do i make these icons show up correctly? I've
+linked the correct site in my html (at least i thought)...*/
 .fa-exclamation-triangle {
   padding: 0% 1%;
 }
