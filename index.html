@@ -20,14 +20,21 @@
   <i class="fas fa-plus"></i>
 </nav>
 
-<img src="images/map.jpeg" alt="City Map" style="width: 100%; height: 30%;">
+<div class="image-position">
+<img class="city-map" src="images/7.12-slc-map.svg" style="left: 0; width: 105%; height: auto; margin: -2%;">
+</div>
 
-<section class="map">
-  <img src="images/icons/7.12-map-details.svg" alt="" style="position: absolute;"></img>
+<section>
+<img class="map" src="images/icons/7.12-map-details.svg" alt="" style="position: absolute;"></img>
+<img class="route" src="images/icons/7.12-bus-route.svg" alt="route"></img>
+<img class="bus" src="images/icons/7.12-bus-icon.svg" alt="bus"></img>
+<img class="location" src="images/icons/7.12-directions-copy.svg" alt="location"></img>
 </section>
 
-  <div class="bus-routes">
+<div class="overlay">
 
+  <div class="card-up" style="top: -1100%; left:0;">
+<div class="button-background">
   <button class="next-bus">
     <li class="bus-lines">
       <p>Next arrival</p>
@@ -36,10 +43,10 @@
         <p class="direction">Eastbound</p>
     <li class="next-arrival">
       <h2 class="arrival-time">2 min</h2>
-        <p class="frequency">every 20 min</p>
+        <p class="next-frequency">every 20 min</p>
     </li>
   </button>
-
+</div>
 <hr size= "1" width= "100%" align="left" color=#000>
 
   <ul class="bus-line">
@@ -49,7 +56,7 @@
         <p class="direction">Southbound</p>
     </li>
     <li class="arrivals">
-      <h2 class="arrival">4 min</h2>
+      <h2 class="first-arrival">4 min</h2>
         <p class="frequency">every 10 min</p>
     </li>
   </ul>
@@ -61,7 +68,7 @@
       <p class="direction">Northbound</p>
   </li>
   <li class="arrivals">
-    <h2 class="arrival">7 min</h2>
+    <h2 class="second-arrival">7 min</h2>
       <p class="frequency">every 16 min</p>
   </li>
 </ul>
@@ -92,8 +99,8 @@
 
 <hr size= "1" width= "100%" align="left" color=#000>
 
-    <h1 class="out-of-service">out of service</h1>
-
+    <h1 class="out-of-service">Out of Service</h1>
+    <i class="fal fa-exclamation-triangle"></i>
     <ul class="bus-line-alerts">
       <li class="bus-lines">
         <h2 class="line">4</h2>
@@ -127,7 +134,8 @@
 
 <hr size= "1" width= "100%" align="left" color=#000>
 
-    <h1 class="reroutes">reroutes</h1>
+    <h1 class="reroutes">Reroutes</h1>
+    <i class="fal fa-exclamation-triangle"></i>
     <ul class="reroute">
       <li class="line">
         <h2 class="line">6x</h2>
@@ -140,8 +148,9 @@
 
   </div>
 
+</div>
 </body>
 
 <main>
-  
+
 </html>

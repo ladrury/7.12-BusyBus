@@ -4,71 +4,107 @@
 
 main {
   width: 375px;
-  height: 812px;
+  position: relative;
+  font-
+}
+
+.map {
+  top: 13%;
+  right: 4%;
+}
+.route {
+  position: absolute;
+  top: 21%;
+  left: 0;
+  background-color: rgba(0,0,0,0);
+}
+.bus {
+  position:absolute;
+  top: 14%;
+  left: 3%;
+  background-color: rgba(0,0,0,0);
+}
+.location {
+  position:absolute;
+  top: 32%;
+  left: 45%;
+  background-color: rgba(0,0,0,0);
 }
 
 nav {
-  font-size: 1.3em;
+  font-size: 18px;
   text-align: center;
-  padding: 1% 0 1% 0;
+  padding: 5% 0 2% 0;
   font-family: sans-serif;
   position: absolute;
   width: 100%;
-  background-color: rgba(105, 105, 105, 0.4);
+  background-color: rgba(249, 247, 247, .8);
+  box-shadow: 0px .5px 2px #d9d9d9;
+}
+nav.h1 {
+  font-weight: 500;
 }
 nav p {
-  font-size: .8em;
-  font-weight: bold;
+  font-size: 14px;
 }
 .fa-chevron-left {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 5%;
 }
 .fa-plus {
   position: absolute;
-  top:30%;
+  top:35%;
   right: 5%;
 }
 
-section.map {
-  position:absolute;
-  top: 8%;
-  right: 10%;
+div.overlay {
+  position: relative;
 }
-
+.card-up {
+  background-color: #f7f7f7;
+  position: absolute;
+}
 div {
+  margin: -1% 0;
   border-radius: 10px 10px 0 0;
   background-color: #ffffff;
   font-size: 12px;
   font-family: sans-serif;
-  padding-top: 10px;
+  padding: 10px 3% 2% 2%
+}
+.button-background {
+  background-color: white;
+  border-color: white;
 }
 button {
   display: flex;
   align-items: center;
-  width: 70%;
-  margin: 1% auto;
+  width: 75%;
+  margin: 5% auto;
   background-color: #d3d3d3;
   border-radius: 10px;
+  border-color: #d3d3d3;
 }
 li.next-arrival {
-  width: 35%;
+  width: 50%;
 }
 h2.arrival-time {
   text-align: right;
-  background-color: yellow;
-  padding: 0 3px;
+  background-color: #4a90e2;
+  padding: 10px 5px;
   border-radius: 5px;
   display: inline-block;
+  color: #fff;
+}
+.next-frequency {
+  font-size: 10px;
+  color: #4a4a4a;
+  font-style: italic;
 }
 hr {
-  margin: 2% 0;
-}
-ul.bus-line {
-  width: 100%;
-  padding: .5% 1% 1% 1%;
-  display: inline-flex;
+  margin-left: -2%;
+  width: 105%
 }
 li {
   display: inline-block;
@@ -76,20 +112,34 @@ li {
   font-size: 1.2em;
   line-height: 1.3;
 }
+.first-arrival {
+  color: #D0021B;
+  font-weight: bold;
+}
+.second-arrival {
+  color: #F6BD60;
+  font-weight: bold;
+}
+ul.bus-line {
+  width: 100%;
+  padding: .5% 1% 1% 1%;
+  display: inline-flex;
+}
 li.bus-lines {
   text-align: left;
-  width: 65%
+  width: 100%;
 }
 h2.line {
-  font-size: 1.2em;
+  font-size: 18px;
   text-transform: capitalize;
   font-weight: bold;
   display: inline-block;
 }
 p.line {
   display: inline-block;
-  padding-left: 10px;
   font-style: italic;
+  font-size: 14px;
+  font-weight: lighter;
 }
 li.arrivals {
   width: 100%;
@@ -97,24 +147,30 @@ li.arrivals {
 .arrival {
   text-align: right;
   font-weight: bold;
-  background-color: #d3d3d3;
   border-radius: 5px;
-  padding: 0 3px;
   display: inline-block;
+  font-size: 14px;
 }
 .frequency {
   text-align: right;
-  font-size: .9em;
+  font-size: 12px;
   font-style: italic;
+  font-weight: lighter;
 }
 p.direction {
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 ul.bus-line-alerts {
   width: 100%;
   display: inline-flex;
+}
+.out-of-service, .reroutes {
+  font-size: 14px;
+  font-weight: 500;
+  display: inline;
 }
 li.resumes {
   text-align: right;
@@ -122,14 +178,17 @@ li.resumes {
 }
 p.resumes {
   display: inline;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: lighter;
 }
 h2.resumes {
   display: inline-block;
-  background-color: #d3d3d3;
   border: 0;
   border-radius: 5px;
   padding: 5px;
-  margin: 3px;
+  font-size: 14px;
+  margin: 2px
 }
 
 ul.reroute {
@@ -139,4 +198,7 @@ ul.reroute {
 ul li.line {
   text-align: left;
   width: 100%;
+}
+.fa-exclamation-triangle {
+  padding: 0% 1%;
 }
