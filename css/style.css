@@ -69,8 +69,10 @@ div.overlay {
 and bring it in front of the "card-up"? Also,
 how do i make the corners rounded?*/
 .pull-down {
-  top: 65%;
-  width: 30px;
+  top: 10%;
+  left: 50%;
+  z-index: 1;
+  width: 110%;
 }
 div {
   margin: -1% 0;
@@ -214,4 +216,5 @@ ul li.line {
 linked the correct site in my html (at least i thought)...*/
 .fa-exclamation-triangle {
   padding: 0% 1%;
+  color: #D0021B;
 }
