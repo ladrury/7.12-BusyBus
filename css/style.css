@@ -68,27 +68,28 @@ div.overlay {
 /*how can i center this line for the "pull down"
 and bring it in front of the "card-up"? Also,
 how do i make the corners rounded?*/
-.pull-down {
-  top: 10%;
-  left: 50%;
-  z-index: 1;
-  width: 110%;
-}
+
 div {
-  margin: -1% 0;
-  border-radius: 10px 10px 0 0;
-  background-color: #ffffff;
   font-size: 12px;
   font-family: sans-serif;
-  padding: 10px 3% 2% 2%
+  padding: 10px 3% 2% 2%;
+}
+.section-one {
+  background-color: #fff;
+  border-top: 10px;
+}
+.section-three {
+  background-color: #e5e5e5;
 }
 /*how can i make the entire background of the
 top section (behind the button) to be white without
 the grey background surrounding it? Basically, how can
 i match my sketch design?*/
-.button-background {
-  background-color: white;
-  border-color: white;
+.pull-down {
+  top: 10%;
+  left: 50%;
+  z-index: 1;
+  width: 110%;
 }
 button {
   display: flex;
