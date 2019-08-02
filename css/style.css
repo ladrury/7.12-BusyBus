@@ -71,19 +71,23 @@ div.overlay {
   z-index: 1;
   width: 10%;
   border-radius: 5px;
+  margin: 0 auto 10px auto;
 }
 
 div {
   font-size: 12px;
   font-family: sans-serif;
-  padding: 10px 3% 2% 2%;
 }
 .section-one {
   background-color: #fff;
   border-radius: 10px 10px 0 0;
 }
+.section-two {
+  padding: 0 3%;
+}
 .section-three {
   background-color: #e5e5e5;
+  padding: 0 3%;
 }
 
 button {
@@ -113,8 +117,7 @@ h2.arrival-time {
   font-style: italic;
 }
 hr {
-  margin-left: -2%;
-  width: 105%
+  width: 100%
 }
 li {
   display: inline-block;
