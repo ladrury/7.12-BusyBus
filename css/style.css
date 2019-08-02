@@ -71,7 +71,7 @@ div.overlay {
   z-index: 1;
   width: 10%;
   border-radius: 5px;
-  margin: 0 auto 10px auto;
+  margin: 10px auto 10px auto;
 }
 
 div {
@@ -83,11 +83,9 @@ div {
   border-radius: 10px 10px 0 0;
 }
 .section-two {
-  padding: 0 3%;
 }
 .section-three {
   background-color: #e5e5e5;
-  padding: 0 3%;
 }
 
 button {
