@@ -1,47 +1,23 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-
 main {
   width: 375px;
   position: relative;
-  font-
+  font-family: "SF Pro Text", Arial, sans-serif;
+  font-size: 12px;
 }
-
-.map {
-  top: 13%;
-  right: 4%;
-}
-.route {
-  position: absolute;
-  top: 21%;
-  left: 0;
-  background-color: rgba(0,0,0,0);
-}
-.bus {
-  position:absolute;
-  top: 14%;
-  left: 3%;
-  background-color: rgba(0,0,0,0);
-}
-.location {
-  position:absolute;
-  top: 32%;
-  left: 45%;
-  background-color: rgba(0,0,0,0);
-}
-
 nav {
   font-size: 18px;
   text-align: center;
+  line-height: 1.2;
   padding: 5% 0 2% 0;
-  font-family: sans-serif;
   position: absolute;
   width: 100%;
   background-color: rgba(249, 247, 247, .8);
   box-shadow: 0px .5px 2px #d9d9d9;
 }
-nav.h1 {
+nav header {
   font-weight: 500;
 }
 nav p {
@@ -57,9 +33,8 @@ nav p {
   top:35%;
   right: 5%;
 }
-
-div.overlay {
-  position: relative;
+.image-position {
+  max-height: 350px;
 }
 .card-up {
   background-color: #fff;
@@ -67,22 +42,14 @@ div.overlay {
   border-radius: 10px 10px 0 0;
 }
 .pull-down {
-  top: 10%;
-  left: 50%;
-  z-index: 1;
   width: 10%;
   border-radius: 5px;
   margin: 10px auto 10px auto;
 }
-
-div {
-  font-size: 12px;
-  font-family: sans-serif;
-  border-radius: 10px 10px 0 0;
-}
 .section-one {
   background-color: #fff;
   border-radius: 10px 10px 0 0;
+  position: relative;
 }
 .section-two {
   background-color: #f7f7f7;
@@ -90,7 +57,6 @@ div {
 .section-three {
   background-color: #e5e5e5;
 }
-
 button {
   display: flex;
   align-items: center;
@@ -119,7 +85,7 @@ h2.arrival-time {
 }
 hr {
   width: 100%;
-  margin: 0;
+  margin:0;
 }
 li {
   display: inline-block;
@@ -186,6 +152,8 @@ ul.bus-line-alerts {
   font-size: 14px;
   font-weight: 500;
   display: inline;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 li.resumes {
   text-align: right;
@@ -205,7 +173,6 @@ h2.resumes {
   font-size: 14px;
   margin: 2px
 }
-
 ul.reroute {
   width: 100%;
   display: inline-flex;
@@ -214,9 +181,10 @@ ul li.line {
   text-align: left;
   width: 100%;
 }
-/*how do i make these icons show up correctly? I've
-linked the correct site in my html (at least i thought)...*/
 .fa-exclamation-triangle {
   padding: 0% 1%;
   color: #D0021B;
+}
+.section-three {
+  padding-top: 2%
 }

@@ -7,43 +7,37 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <meta name="viewport" content="width=375px, initial-scale=1">
 </head>
 
-<main>
+<main role="main">
 
 <body>
 
-<nav>
-<h1>Washington and State</h1>
+<nav role="navigation">
+<header role="banner" aria-label="header">Washington and State</header>
   <p class="distance">0.3 miles</p>
-  <i class="fas fa-chevron-left"></i>
-  <i class="fas fa-plus"></i>
+  <i class="fas fa-chevron-left" alt="back"></i>
+  <i class="fas fa-plus" alt="add"></i>
 </nav>
 
-<div class="image-position">
-<img class="city-map" src="images/7.12-slc-map.svg" style="left: 0; width: 100%; height: auto; margin: -2%;">
+<div class="image-position" role="img" aria-label="city-map">
+<img class="city-map" src="images/icons/7.12-map.svg" alt="Location Map" style="left: 0; width: 100%; height: auto;">
 </div>
 
-<section>
-<img class="map" src="images/icons/7.12-map-details.svg" alt="" style="position: absolute;"></img>
-<img class="route" src="images/icons/7.12-bus-route.svg" alt="route"></img>
-<img class="bus" src="images/icons/7.12-bus-icon.svg" alt="bus"></img>
-<img class="location" src="images/icons/7.12-directions-copy.svg" alt="location"></img>
-</section>
+<div class="card-up">
+  <hr class="pull-down" size= "5" color=#c8c8c8>
 
-<div class="overlay">
-  <div class="card-up" style="top: -1100%; left:0;">
-    <hr class="pull-down" size= "5" color=#c8c8c8>
-
-<div class="section-one">
+<div class="section-one" role="contentinfo">
 <div class="button-background">
   <button class="next-bus">
-    <li class="bus-lines">
+    <li class="bus-lines" role="listitem">
       <p>Next arrival</p>
       <h2 class="line">60</h2>
         <p class="line">Randolph / Harbor</p>
         <p class="direction">Eastbound</p>
-    <li class="next-arrival">
+    </li>
+    <li class="next-arrival" role="listitem">
       <h2 class="arrival-time">2 min</h2>
         <p class="next-frequency">every 20 min</p>
     </li>
@@ -51,113 +45,106 @@
 </div>
 </div>
 
-<hr size= "1" width= "100%" align="left" color=#000>
+<hr role="separator" size= "1" width= "100%" align="left" color=#000>
 
-<div class="section-two">
-  <ul class="bus-line">
-    <li class=bus-lines>
+<div class="section-two" role="contentinfo">
+  <ul class="bus-line" role="list">
+    <li class=bus-lines role="listitem">
       <h2 class="line">124</h2>
         <p class="line">Navy Pier</p>
         <p class="direction">Southbound</p>
     </li>
-    <li class="arrivals">
+    <li class="arrivals" role="listitem">
       <h2 class="first-arrival">4 min</h2>
         <p class="frequency">every 10 min</p>
     </li>
   </ul>
 
-<ul class="bus-line">
-  <li class=bus-lines>
+<ul class="bus-line" role="list">
+  <li class=bus-lines role="listitem">
     <h2 class="line">151</h2>
       <p class="line">Devon / Clark</p>
       <p class="direction">Northbound</p>
   </li>
-  <li class="arrivals">
+  <li class="arrivals" role="listitem">
     <h2 class="second-arrival">7 min</h2>
       <p class="frequency">every 16 min</p>
   </li>
 </ul>
 
-<ul class="bus-line">
-  <li class=bus-lines>
+<ul class="bus-line" role="list">
+  <li class=bus-lines role="listitem">
     <h2 class="line">124</h2>
       <p class="line">Navy Pier</p>
       <p class="direction">Eastbound</p>
   </li>
-  <li class="arrivals">
+  <li class="arrivals" role="listitem">
     <h2 class="arrival">9 min</h2>
       <p class="frequency">every 10 min</p>
   </li>
 </ul>
 
-<ul class="bus-line">
-  <li class=bus-lines>
+<ul class="bus-line" role="list">
+  <li class=bus-lines role="listitem">
     <h2 class="line">J14</h2>
       <p class="line">103rd / Stony Island</p>
       <p class="direction">Southbound</p>
   </li>
-  <li class="arrivals">
+  <li class="arrivals" role="listitem">
     <h2 class="arrival">12 min</h2>
       <p class="frequency">every 15 min</p>
   </li>
 </ul>
 </div>
 
-<hr size= "1" width= "100%" align="left" color=#000>
+<hr role="separator" size= "1" width= "100%" align="left" color=#000>
 
-<div class="section-three">
-    <h1 class="out-of-service">Out of Service</h1>
-    <i class="fas fa-exclamation-triangle"></i>
-    <ul class="bus-line-alerts">
-      <li class="bus-lines">
+<div class="section-three" role="contentinfo">
+    <i class="fas fa-exclamation-triangle" alt="warning"></i><h1 class="out-of-service">Out of Service</h1>
+    <ul class="bus-line-alerts" role="list">
+      <li class="bus-lines" role="listitem">
         <h2 class="line">4</h2>
           <p class="line">Cottage Grove</p>
       </li>
-      <li class="resumes">
+      <li class="resumes" role="listitem">
         <p class="resumes">resumes</p>
         <h2 class="resumes">12:10 AM</h2>
       </li>
     </ul>
-    <ul class="bus-line-alerts">
-      <li class="bus-lines">
+    <ul class="bus-line-alerts" role="list">
+      <li class="bus-lines" role="listitem">
         <h2 class="line">20</h2>
           <p class="line">Madison</p>
       </li>
-      <li class="resumes">
+      <li class="resumes" role="listitem">
         <p class="resumes">resumes</p>
         <h2 class="resumes">12:10 AM</p>
       </li>
     </ul>
-    <ul class="bus-line-alerts">
-      <li class="bus-lines">
+    <ul class="bus-line-alerts" role="list">
+      <li class="bus-lines" role="listitem">
         <h2 class="line">125</h2>
           <p class="line">Streeterville / Taylor</p>
       </li>
-      <li class="resumes">
+      <li class="resumes" role="listitem">
         <p class="resumes">resumes</p>
         <h2 class="resumes">6:00 AM</p>
       </li>
     </ul>
 
-<hr size= "1" width= "100%" align="left" color=#000>
-
-    <h1 class="reroutes">Reroutes</h1>
-    <i class="fas fa-exclamation-triangle"></i>
-    <ul class="reroute">
-      <li class="line">
+    <i class="fas fa-exclamation-triangle" alt="warning"></i><h1 class="reroutes">Reroutes</h1>
+    <ul class="reroute" role="list">
+      <li class="line" role="listitem">
         <h2 class="line">6x</h2>
           <p class="line">Jackson Park Express</p>
       </li>
-      <li class="resumes">
+      <li class="resumes" role="list">
         <h2 class="resumes">N/A</h2>
       </li>
     </ul>
-</div>
   </div>
-
 </div>
+
 </body>
-
-<main>
-
+</main>
 </html>
