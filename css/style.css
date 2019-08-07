@@ -11,11 +11,11 @@ main {
 }
 
 .image-position {
-  max-height: 350px;
+  max-height: 280px;
 }
 img {
 position: relative;
-top: -100px;
+top: -80px;
 }
 nav {
   font-size: 18px;
@@ -26,6 +26,7 @@ nav {
   width: 100%;
   background-color: rgba(249, 247, 247, .8);
   box-shadow: 0px .5px 2px #d9d9d9;
+  z-index: 1;
 }
 nav header {
   font-weight: 500;
@@ -106,7 +107,7 @@ ul.section-three {
   background-color: #e5e5e5;
 }
 ul.section-four {
-  padding: 3% 0;
+  padding: 3% 0 0 0;
 }
 .first-arrival {
   color: #D0021B;
@@ -199,7 +200,4 @@ ul li.line {
 .fa-exclamation-triangle {
   padding: 0% 1%;
   color: #D0021B;
-}
-.section-three {
-  padding-top: 2%
 }
