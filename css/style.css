@@ -9,19 +9,20 @@ main {
   color: #4A4A4A;
   margin: auto;
 }
-
+img.status-bar {
+  position: relative;
+}
 .image-position {
-  max-height: 280px;
+  max-height: 380px;
 }
 img {
 position: relative;
-top: -80px;
 }
 nav {
   font-size: 18px;
   text-align: center;
   line-height: 1.2;
-  padding: 5% 0 2% 0;
+  padding: 4% 0 2% 0;
   position: absolute;
   width: 100%;
   background-color: rgba(249, 247, 247, .8);
@@ -30,18 +31,19 @@ nav {
 }
 nav header {
   font-weight: 500;
+  padding-top: 2%;
 }
 nav p {
   font-size: 14px;
 }
 .fa-chevron-left {
   position: absolute;
-  top: 35%;
+  top: 65%;
   left: 5%;
 }
 .fa-plus {
   position: absolute;
-  top:35%;
+  top:65%;
   right: 5%;
 }
 .card-up {
@@ -59,17 +61,17 @@ nav p {
   border-radius: 10px 10px 0 0;
   position: relative;
 }
-ul.next-bus {
+li.next-bus {
   display: flex;
   align-items: center;
   width: 75%;
   margin: 5% auto;
   padding: 0 5%;
-  background-color: #d3d3d3;
-  border-radius: 10px;
-  border-color: #d3d3d3;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  border-color: #e5e5e5;
 }
-li.next-arrival {
+div.next-arrival {
   width: 50%;
   padding: 8% 0;
 }
@@ -86,12 +88,13 @@ h2.arrival-time {
   color: #4a4a4a;
   font-style: italic;
   padding: 5% 0;
+  font-weight: lighter;
 }
 hr {
   width: 100%;
   margin:0;
 }
-li {
+div {
   display: inline-block;
   text-align: right;
   font-size: 1.2em;
@@ -103,11 +106,12 @@ ul.section-two {
   background-color: #f7f7f7;
 }
 ul.section-three {
-  padding: 5% 5%;
+  padding: 5% 5% 0% 5%;
   background-color: #e5e5e5;
 }
 ul.section-four {
-  padding: 3% 0 0 0;
+  padding: 0% 5% 5% 5%;
+  background-color: #e5e5e5;
 }
 .first-arrival {
   color: #D0021B;
@@ -117,12 +121,12 @@ ul.section-four {
   color: #F6BD60;
   font-weight: bold;
 }
-ul.bus-line {
+li.bus-line {
   width: 100%;
   padding: .5% 1% 1% 1%;
   display: inline-flex;
 }
-li.bus-lines {
+div.bus-lines {
   text-align: left;
   width: 100%;
 }
@@ -138,7 +142,7 @@ p.line {
   font-size: 14px;
   font-weight: lighter;
 }
-li.arrivals {
+div.arrivals {
   width: 100%;
 }
 .arrival {
@@ -160,18 +164,17 @@ p.direction {
   font-size: 14px;
 }
 
-ul.bus-line-alerts {
+li.bus-line-alerts {
   width: 100%;
   display: inline-flex;
 }
 .out-of-service, .reroutes {
   font-size: 14px;
-  font-weight: 500;
   display: inline;
   font-weight: bold;
   text-transform: uppercase;
 }
-li.resumes {
+div.resumes {
   text-align: right;
   width: 100%;
 }
@@ -189,11 +192,11 @@ h2.resumes {
   font-size: 14px;
   margin: 2px
 }
-ul.reroute {
+li.reroute {
   width: 100%;
   display: inline-flex;
 }
-ul li.line {
+li div.line {
   text-align: left;
   width: 100%;
 }
